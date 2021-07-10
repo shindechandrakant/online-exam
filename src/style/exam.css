@@ -1,0 +1,22 @@
+
+.exam__section {
+
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+}
+
+
+@media screen and (max-width: 450px) {
+    
+    .exam__section {
+        display: grid;
+        grid-template-columns: 9fr 1fr;
+    }
+}
+
+
+
+
+
+
+

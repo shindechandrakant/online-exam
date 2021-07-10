@@ -1,12 +1,12 @@
 import React from "react";
+import "./style/index.css"
 import ReactDOM from 'react-dom'
-
-
+import Exam from "./live exam/Exam"
 
 
 ReactDOM.render(
 
-    <h1>Lets build an Empire</h1>
+        <Exam />
     ,   document.getElementById("root")
 )
 

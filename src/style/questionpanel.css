@@ -1,0 +1,54 @@
+
+.question_panel {
+
+}
+
+.sub_name {
+
+    display: flex;
+
+}
+
+.invalid_clicks {
+
+    display: flex;
+}
+
+
+.overview {
+
+    display: flex;
+
+}
+
+
+
+
+
+
+
+
+.all_questions {
+
+    display: grid;
+    text-align: center;
+    width: 50vh;
+    grid-template-columns: repeat(6, 0.17fr);
+
+}
+
+@media screen and (max-width: 450px) {
+    
+    .all_questions {
+
+        display: grid;
+        grid-template-columns: repeat(3, 0.17fr);
+    
+    }
+}
+
+.question_number {
+
+    border: 3px solid greenyellow;
+}
+
